@@ -24,5 +24,53 @@ para o próximo commit:
 
 git add [nome_do_arquivo]
 
+git commit
+
+Use esse comando para criar uma mensagem de commit para as alterações,tornando-as 
+parte do hisstórico do seu projeto:
+
+git commit -m "Adicionar novo recurso"
+
+git status
+
+Esse comando exibe informações importantes sobreas modificaçõs e o status de 
+preparação de seus arquivos.
+
+git status
+
+git log
+
+Em sua forma básica, o git log permite visualizar uma lista cromológica do 
+histórico de commits:
+
+git log
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
