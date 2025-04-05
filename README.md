@@ -15,7 +15,7 @@ git init
 Esse comando inicia  um novo repositório Git em um diretório. 
 Aqui está como usar o git init de forma básica:
 
-git init [nome do projeto]
+[git init (nome do projeto)]
 
 git add 
 
@@ -29,21 +29,35 @@ git commit
 Use esse comando para criar uma mensagem de commit para as alterações,tornando-as 
 parte do hisstórico do seu projeto:
 
-git commit -m "Adicionar novo recurso"
+[git commit -m ("Adicionar novo recurso")]
 
 git status
 
 Esse comando exibe informações importantes sobreas modificaçõs e o status de 
 preparação de seus arquivos.
 
-git status
+[git status]
 
 git log
 
 Em sua forma básica, o git log permite visualizar uma lista cromológica do 
 histórico de commits:
 
-git log
+[git log]
+
+git diff
+
+Esse comando permite comparar as alterações entre o diretório de trabalho
+e o commit mais recente. por exemplo, esse uso do git diff identifica as 
+diferenças em um arquivo específico:
+
+[git diff (arquivo.txt)]
+
+Para comparar as alterações entre dois commits, use o seguinte:
+
+[git diff (commit1 commit2)]
+
+
 
 
 
