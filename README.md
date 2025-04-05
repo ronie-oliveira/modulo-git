@@ -57,6 +57,13 @@ Para comparar as alterações entre dois commits, use o seguinte:
 
 [git diff (commit1 commit2)]
 
+git rm
+
+Esse comando remove arquivos do sseu deretório de trabalho e 
+prepara a remoção para o próximo commit.
+
+[git rm arquivo1.txt]
+
 
 
 
