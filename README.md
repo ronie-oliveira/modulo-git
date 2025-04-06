@@ -69,9 +69,52 @@ prepara a remoção para o próximo commit.
 Use esse comando para renomear e mover arquivos em seu diretório de  return
 trabalho. Aqui está o comando do git para renomear e mover arquivos:  return
 
-[git mv arquivo1.txt nova_pasta/] return
+[git mv arquivo1.txt arquivo2.txt] return
 
+para mover um arquivo para um arquivo para um diretório diferente, digite:
 
+[git mv arquivo1.txt nova_pasta/]
+
+## Comandos de branch e merge do Git
+
+**git branch**
+
+Use esse comando para gerenciar ramificações em seu repositório Git.
+Aqui está o o uso básico do **git branch** para listar todas as ramificações 
+existentes:
+
+[git branch]
+
+Para criar um branch do Git chamada "novo", use:
+
+[git branch novo]
+
+Para renomear um branch do Git, digte este comando:
+
+[git branch -m nome-do-novo-branch]
+
+**git checkout**
+
+Esse comando permite alternar entre ramificações e
+retaurar arquivos de diferentes commits.
+
+veja abaixo como usar o git **checkout** para mudar para um 
+branch existente:
+
+[git checkout nome_do_branch]
+
+Para descartar alterações em um arquivo específico e
+revert-lo par o último commit, use:
+
+[git checkout -- nome_do_arquivo]
+
+**git merge**
+
+Para mesclar um branch de novo ou tópico no branch 
+principal do Git, use esse comando. Abaixo está um
+exemplo de uso do **merge:**
+
+[git merge nome_do_branch]
 
 
 
