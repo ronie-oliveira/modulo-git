@@ -33,14 +33,14 @@ parte do hisstórico do seu projeto:
 
 **git status**
 
-Esse comando exibe informações importantes sobreas modificaçõs e o status de 
+Esse comando exibe informações importantes sobre as modificaçõs e o status de 
 preparação de seus arquivos.
 
 [git status]
 
 **git log**
 
-Em sua forma básica, o git log permite visualizar uma lista cromológica do 
+Em sua forma básica, o git log permite visualizar uma lista cronológica do 
 histórico de commits:
 
 [git log]
@@ -59,19 +59,19 @@ Para comparar as alterações entre dois commits, use o seguinte:
 
 **git rm**
 
-Esse comando remove arquivos do sseu deretório de trabalho e 
+Esse comando remove arquivos do seu deretório de trabalho e 
 prepara a remoção para o próximo commit.
 
 [git rm arquivo1.txt]
 
 **git mv**
 
-Use esse comando para renomear e mover arquivos em seu diretório de  return
-trabalho. Aqui está o comando do git para renomear e mover arquivos:  return
+Use esse comando para renomear e mover arquivos em seu diretório de  
+trabalho. Aqui está o comando do git para renomear e mover arquivos:  
 
-[git mv arquivo1.txt arquivo2.txt] return
+[git mv arquivo1.txt arquivo2.txt] 
 
-para mover um arquivo para um arquivo para um diretório diferente, digite:
+para mover um arquivo para um diretório diferente, digite:
 
 [git mv arquivo1.txt nova_pasta/]
 
@@ -80,7 +80,7 @@ para mover um arquivo para um arquivo para um diretório diferente, digite:
 **git branch**
 
 Use esse comando para gerenciar ramificações em seu repositório Git.
-Aqui está o o uso básico do **git branch** para listar todas as ramificações 
+Aqui está o  uso básico do **git branch** para listar todas as ramificações 
 existentes:
 
 [git branch]
@@ -104,7 +104,7 @@ branch existente:
 [git checkout nome_do_branch]
 
 Para descartar alterações em um arquivo específico e
-revert-lo par o último commit, use:
+revert-lo para o último commit, use:
 
 [git checkout -- nome_do_arquivo]
 
