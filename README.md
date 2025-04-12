@@ -116,6 +116,35 @@ exemplo de uso do **merge:**
 
 [git merge nome_do_branch]
 
+## comandos de repositório remoto Git
+
+**git clone**
+
+Esse comando cria uma cópia de um repositório remoto em seu 
+computador local. Um exemplo de uso básico do **git clone** é clonar 
+um repositório do GitHub:
+
+[git clone https://github.com/username/meu-projeto.git]
+
+**git push**
+
+Esse comando envia os commits do branch local do Git para um 
+repositório remoto, atualizando-o com suas alterações mais recentes.
+
+Por exemplo, se voçê deseja enviar as alterações do repositorio local
+chamado "main" para o repositório chamado "origin":
+
+[git push origin main]
+
+**git pull**
+
+Esse comando obtém e integra as alterações de um repositótio remoto
+em seu branch local atual. Aqui está um exemplo do uso do **git pull**
+para extrair alterações do branch principal:
+
+[git pull origin main]
+
+
 
 
 
